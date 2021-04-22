@@ -3,17 +3,17 @@ import {Link} from 'react-router-dom'
 import "../style.css"
 import "./Post.css"
 
-const img1 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136374943_1179773875786071_7891782408923484502_o.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_ohc=h1ofbXgNEasAX_fbvyr&_nc_oc=AQnN6Ywmedlj6YZiHbNYeDgGN0_M4zf0qtkLxBBYZw4z65Lf612vdPLgUF2fSsVuZ80&_nc_ht=scontent-del1-1.xx&oh=24848049f8ca76af4aa42dbf80369bad&oe=601E5F68"
+const img1 = "https://i.ibb.co/jf2dWSj/m-tube1.png"
 
-const img2 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136067009_1179773849119407_4497037033524110721_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=CBzHtoUFKGIAX_7gfyv&_nc_ht=scontent-del1-1.xx&oh=93b4ad00f736e791beed0fa84f53fb0d&oe=60209CF9"
+const img2 = "https://i.ibb.co/BqR41np/m-tube2.png"
 
-const img3 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/137330661_1179773895786069_387153741907857559_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=6b0gQ4fe7UkAX-NTenc&_nc_ht=scontent-del1-1.xx&oh=287b2fa6eda47a2e2a4b1f2ad470be37&oe=6020050B"
+const img3 = "https://i.ibb.co/FgPgCJF/m-tube3.png"
 
-const img4 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136029371_1179773855786073_2820367268958495507_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=u6qkg0E6agEAX_iw6P9&_nc_ht=scontent-del1-1.xx&oh=1ce1ac09f6a04c64fcbb358efc9d2ae1&oe=601D85DA"
+const img4 = "https://i.ibb.co/ggnMGTV/m-tube4.png"
 
-const img5 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135559282_1179773885786070_8441706316805260513_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=sOJOAFE4zjwAX-8Tj2-&_nc_ht=scontent-del1-1.xx&oh=cc2b6aaeb16ae8126397823201083af7&oe=601D3ABA"
+const img5 = "https://i.ibb.co/Trrx5cC/m-tube5.png"
 
-const img6 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135301135_1179773889119403_1040144048459555480_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=HlFiPf_s0ucAX_V1ADy&_nc_ht=scontent-del1-1.xx&oh=1732c3b26d3e92c7e4b3c5ce22a9354b&oe=601F4936"
+const img6 = "https://i.ibb.co/28k58g7/m-tube6.png"
 
 
 const Post3 = () => {

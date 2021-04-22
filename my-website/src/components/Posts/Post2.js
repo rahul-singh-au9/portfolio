@@ -3,19 +3,19 @@ import {Link} from 'react-router-dom'
 import "../style.css"
 import "./Post.css"
 
-const img1 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135835650_1179784109118381_3203309990222587651_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=5ip823gowBkAX8xweCt&_nc_ht=scontent-del1-1.xx&oh=2e7660404b9d744701a1d3505cc9d1be&oe=601E9A60"
+const img1 = "https://i.ibb.co/ScYfC1m/hotel1.png"
 
-const img2 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136440880_1179784209118371_830000982361869958_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=g9BmJZiWBqcAX9ozQNv&_nc_ht=scontent-del1-1.xx&oh=7aaa7d61e43fef90a786ae363145a13a&oe=601E5088"
+const img2 = "https://i.ibb.co/6BmLN6m/hotel7.png"
 
-const img3 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135754983_1179784165785042_2666235542754388444_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=nXRO62wHU5UAX-Pa3vj&_nc_ht=scontent-del1-1.xx&oh=249142926c3dab8e4ba23535cf0c6337&oe=601F4E32"
+const img3 = "https://i.ibb.co/XZ5BpDq/hotel6.png"
 
-const img4 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/137044159_1179784099118382_3665349281209607889_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=nb--jnGiM20AX9fs1Vq&_nc_ht=scontent-del1-1.xx&oh=3e5ee41785691d43e39bcf6dd97b55c2&oe=601D568C"
+const img4 = "https://i.ibb.co/48PWb1T/hotel2.png"
 
-const img5 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135536392_1179784102451715_4290369423892379573_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=wgz4AteEonwAX8nv2hY&_nc_ht=scontent-del1-1.xx&oh=ab41f19ec91a1e9434a05c6219c691f7&oe=601D80B0"
+const img5 = "https://i.ibb.co/sQQ2ZTk/hotel3.png"
 
-const img6 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135539551_1179784179118374_1157000678050998101_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=E8gGw6tGLDIAX_1drJs&_nc_ht=scontent-del1-1.xx&oh=e5737c0c3b14e13b2aa25020af6583c8&oe=601E4C0F"
+const img6 = "https://i.ibb.co/GJn0RD1/hotel4.png"
 
-const img7 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136462542_1179784155785043_5344573109352192750_o.jpg?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_ohc=J7UerNUqPHcAX_vJZ_T&_nc_ht=scontent-del1-1.xx&oh=3e6fbfd418c3519060bc19e8265ba100&oe=601EBCEA"
+const img7 = "https://i.ibb.co/GWXBTfS/hotel5.png"
 
 const Post2 = () => {
   return (

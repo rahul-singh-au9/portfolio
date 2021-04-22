@@ -3,17 +3,17 @@ import {Link} from 'react-router-dom'
 import "../style.css"
 import "./Post.css"
 
-const img1 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135839271_1179744149122377_5912920449128970734_o.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_ohc=kLUFk2lKbP4AX9gOzwr&_nc_ht=scontent-del1-1.xx&oh=c8900b896508c846097b4088e364d21d&oe=6020A64B"
+const img1 = "https://i.ibb.co/z2wyYmB/food1.png"
 
-const img2 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/136189895_1179744105789048_4989233509269354540_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=KUflgaUG0DwAX_lyuz5&_nc_ht=scontent-del1-1.xx&oh=674ec09a5ec5d19871dda3bc0eb94104&oe=601EF537"
+const img2 = "https://i.ibb.co/pxqS7zR/food2.png"
 
-const img3 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135824816_1179744095789049_132672073451638485_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=Siq8HBjEMUkAX-LW35j&_nc_ht=scontent-del1-1.xx&oh=3c09c7892d2c935fb477e5fd93b6237d&oe=601F9DBC"
+const img3 = "https://i.ibb.co/f8bFqyq/food3.png"
 
-const img4 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135687193_1179744115789047_1801896923135885756_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=a4uytYo8tGQAX_JWpGy&_nc_ht=scontent-del1-1.xx&oh=98c1c7c1055a4eeb8f668309eeeb5086&oe=60209636"
+const img4 = "https://i.ibb.co/g7NQzbZ/food4.png"
 
-const img5 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135524705_1179744142455711_7956963143146596982_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=TBO1fhu6gQIAX8ShZJu&_nc_ht=scontent-del1-1.xx&oh=70f5915ffa109164e1a6c5c3c4077060&oe=60202329"
+const img5 = "https://i.ibb.co/TYCzfQK/food5.png"
 
-const img6 = "https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/135590102_1179744132455712_8833041546914233793_o.jpg?_nc_cat=102&cb=846ca55b-311e05c7&ccb=2&_nc_sid=730e14&_nc_ohc=q17HnwLtaksAX8ECFKi&_nc_ht=scontent-del1-1.xx&oh=240287e34764df8a4e8937712d8c151b&oe=601D892E"
+const img6 = "https://i.ibb.co/QKsKWDc/food6.png"
 
 const Post1 = () => {
   return (

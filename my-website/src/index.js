@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route} from 'react-router-dom'
-import './index.css';
 import App from './App';
 import Post1 from "./components/Posts/Post1"
 import Post2 from "./components/Posts/Post2"

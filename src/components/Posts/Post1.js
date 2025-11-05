@@ -1,44 +1,19 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import "../style.css"
-import "./Post.css"
-
-const img1 = "https://i.ibb.co/z2wyYmB/food1.png"
-
-const img2 = "https://i.ibb.co/pxqS7zR/food2.png"
-
-const img3 = "https://i.ibb.co/f8bFqyq/food3.png"
-
-const img4 = "https://i.ibb.co/g7NQzbZ/food4.png"
-
-const img5 = "https://i.ibb.co/TYCzfQK/food5.png"
-
-const img6 = "https://i.ibb.co/QKsKWDc/food6.png"
+import React from 'react';
+import Navigation from '../common/Navigation';
+import { POST1_IMAGES } from '../../constants/projectData';
+import "../style.css";
+import "./Post.css";
 
 const Post1 = () => {
   return (
     <div>
-          <div class="nav-wrapper">
+      <Navigation />
 
-                <Link to="/">
-                      <div class="dots-wrapper">
-                            <div id="dot-1" class="browser-dot"></div>
-                            <div id="dot-2" class="browser-dot"></div>
-                            <div id="dot-3" class="browser-dot"></div>
-                      </div>
-                </Link>
-
-                <ul id="navigation">
-                  <li><Link to="/#contactt">Contact</Link></li>
-
-                </ul>
-          </div>
-
-          <div class="main-container">
+          <div className="main-container">
                 <br/>
 
-                <div class="img-container">
-                  <img src={img1} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.main} alt="Food Delivery App" loading="lazy"/>
                 </div>
 
                 <h3>Food Delivery App</h3>
@@ -66,28 +41,28 @@ const Post1 = () => {
                 </ul>
 
                 <h5>Restaurants on the basis of Types</h5>
-                <div class="img-container">
-                  <img src={img2} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.types} alt="Restaurant Types" loading="lazy"/>
                 </div>
 
                 <h5>APP Store</h5>
-                <div class="img-container">
-                  <img src={img3} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.appStore} alt="App Store" loading="lazy"/>
                 </div>
 
                 <h5>All Locations</h5>
-                <div class="img-container">
-                  <img src={img4} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.locations} alt="All Locations" loading="lazy"/>
                 </div>
 
                 <h5>About Page</h5>
-                <div class="img-container">
-                  <img src={img5} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.about} alt="About Page" loading="lazy"/>
                 </div>
 
                 <h5>Vision Page</h5>
-                <div class="img-container">
-                  <img src={img6} alt="pic"/>
+                <div className="img-container">
+                  <img src={POST1_IMAGES.footer} alt="Vision Page" loading="lazy"/>
                 </div>
           </div>
     </div>

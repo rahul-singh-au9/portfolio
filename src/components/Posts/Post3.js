@@ -19,13 +19,13 @@ const img6 = "https://i.ibb.co/28k58g7/m-tube6.png"
 const Post3 = () => {
   return (
     <div>
-          <div class="nav-wrapper">
+          <div className="nav-wrapper">
 
                 <Link to="/">
-                      <div class="dots-wrapper">
-                            <div id="dot-1" class="browser-dot"></div>
-                            <div id="dot-2" class="browser-dot"></div>
-                            <div id="dot-3" class="browser-dot"></div>
+                      <div className="dots-wrapper">
+                            <div id="dot-1" className="browser-dot"></div>
+                            <div id="dot-2" className="browser-dot"></div>
+                            <div id="dot-3" className="browser-dot"></div>
                       </div>
                 </Link>
 
@@ -35,10 +35,10 @@ const Post3 = () => {
                 </ul>
           </div>
 
-          <div class="main-container">
+          <div className="main-container">
                 <br/>
 
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img1} alt="pic"/>
                 </div>
 
@@ -68,27 +68,27 @@ const Post3 = () => {
                 </ul>
 
                 <h5>All the search Results</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img2} alt="pic"/>
                 </div>
 
                 <h5>Media player (Results)</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img3} alt="pic"/>
                 </div>
 
                 <h5>Input Fields</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img4} alt="pic"/>
                 </div>
 
                 <h5>Input Fields(search)</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img5} alt="pic"/>
                 </div>
 
                 <h5>Search Results</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img6} alt="pic"/>
                 </div>
 

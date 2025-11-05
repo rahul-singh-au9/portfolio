@@ -206,6 +206,12 @@ h6 { font-size: 16px;}
 	border-width: 5px;
 }
 
+.selected-theme{
+	border-width: 5px;
+	border-color: var(--buttonColor) !important;
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+}
 
 #light-mode{
 	background-color: #fff;
@@ -375,22 +381,51 @@ h6 { font-size: 16px;}
 .input-field{
 	width: 100%;
 	padding-top: 10px;
-	padding-bottom:10px; 
+	padding-bottom:10px;
 	background-color: var(--secondaryColor);
 	border-radius: 5px;
 	border:1px solid var(--borderColor);
 	font-size: 14px;
+	transition: border-color 0.3s ease;
 }
 
+.input-field:focus{
+	outline: none;
+	border-color: var(--buttonColor);
+}
+
+.input-field.error{
+	border-color: #dc3545;
+}
+
+.error-message{
+	color: #dc3545;
+	font-size: 12px;
+	margin-top: 5px;
+	display: block;
+	margin-bottom: 10px;
+}
 
 #submit-btn{
 	margin-top: 10px;
 	width: 100%;
 	padding-top: 10px;
-	padding-bottom:10px; 
+	padding-bottom:10px;
 	color: #fff;
 	background-color: var(--buttonColor);
 	border:none;
+	cursor: pointer;
+	transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#submit-btn:hover:not(:disabled){
+	opacity: 0.9;
+	transform: translateY(-2px);
+}
+
+#submit-btn:disabled{
+	opacity: 0.6;
+	cursor: not-allowed;
 }
 
 

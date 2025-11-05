@@ -20,13 +20,13 @@ const img7 = "https://i.ibb.co/GWXBTfS/hotel5.png"
 const Post2 = () => {
   return (
     <div>
-          <div class="nav-wrapper">
+          <div className="nav-wrapper">
 
                 <Link to="/">
-                      <div class="dots-wrapper">
-                            <div id="dot-1" class="browser-dot"></div>
-                            <div id="dot-2" class="browser-dot"></div>
-                            <div id="dot-3" class="browser-dot"></div>
+                      <div className="dots-wrapper">
+                            <div id="dot-1" className="browser-dot"></div>
+                            <div id="dot-2" className="browser-dot"></div>
+                            <div id="dot-3" className="browser-dot"></div>
                       </div>
                 </Link>
 
@@ -36,10 +36,10 @@ const Post2 = () => {
                 </ul>
           </div>
 
-          <div class="main-container">
+          <div className="main-container">
                 <br/>
 
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img1} alt="pic"/>
                 </div>
 
@@ -70,32 +70,32 @@ const Post2 = () => {
                 </ul>
 
                 <h5>Login Dashboard</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img2} alt="pic"/>
                 </div>
 
                 <h5>Sample Signup Form</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img3} alt="pic"/>
                 </div>
 
                 <h5>Recommandations on the basis of trip type</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img4} alt="pic"/>
                 </div>
 
                 <h5>Filter Results (Cost and Room type)</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img5} alt="pic"/>
                 </div>
 
                 <h5>Hotel Details Page</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img6} alt="pic"/>
                 </div>
 
                 <h5>Booking Page</h5>
-                <div class="img-container">
+                <div className="img-container">
                   <img src={img7} alt="pic"/>
                 </div>
           </div>
